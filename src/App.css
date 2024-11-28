@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav {
+    background-color: #lightblue; /* Bootstrap primary color */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the navigation items */
+}
+
+nav li {
+    margin: 0 15px; /* Space between items */
+}
+
+nav a {
+    color: lightpink; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    color: #ffc107; /* Change color on hover */
+}
+
+nav a.active {
+    border-bottom: 2px solid #ffc107; /* Active link underline */
+}
+
+/* Main content area styling */
+main {
+    max-width: 800px; /* Limit width of main content */
+    margin: auto; /* Center main content */
+}
